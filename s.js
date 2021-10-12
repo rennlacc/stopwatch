@@ -20,17 +20,17 @@ function stopwatch() {
             }
         }
         if(sec < 10){
-            displaySec = "0" + sec.toString();
+            displaySec = "0" + sec;
         }else{
             displaySec = sec;
         }
        if(min < 10){
-                displayMin = "0" + min.toString();    
+                displayMin = "0" + min;    
         }else{
             displayMin = min;
         }
         if(hrs < 10){
-            displayHrs = "0" + hrs.toString();    
+            displayHrs = "0" + hrs;    
         }else{
             displayHrs = hrs;
         }
